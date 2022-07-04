@@ -1,9 +1,152 @@
 {
   "version": 2,
   "settings": {
+    "appearanceTools": true,
     "layout": {
-      "contentSize": "840px",
-      "wideSize": "1140px"
+      "contentSize": "1170px",
+      "wideSize": "1260px"
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "size": "1rem",
+          "slug": "base"
+        }
+      ],
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Spartan\"",
+          "slug": "spartan",
+          "name": "Spartan",
+          "fontFace": [
+            {
+              "fontFamily": "Spartan",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+            },
+            {
+              "fontFamily": "Spartan",
+              "fontWeight": "500",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+            },
+            {
+              "fontFamily": "Spartan",
+              "fontWeight": "600",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+            },
+            {
+              "fontFamily": "Spartan",
+              "fontWeight": "700",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+            },
+            {
+              "fontFamily": "Spartan",
+              "fontWeight": "800",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+            }
+          ]
+        }
+      ]
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Body",
+          "slug": "body",
+          "color": "#0c2461"
+        },
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#3742fa"
+        },
+        {
+          "name": "Paragraph",
+          "slug": "paragraph",
+          "color": "#3c6382"
+        },
+        {
+          "name": "Footer Widget Text",
+          "slug": "footer-widget-text",
+          "color": "#bac4e1"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "typography": {
+      "fontSize": "var(--wp--preset--font-size--base)",
+      "fontWeight": "400",
+      "lineHeight": "1.5",
+      "fontFamily": "var(--wp--preset--font-family--spartan)"
+    },
+    "color": {
+      "background": "var(--wp--preset--color--white)",
+      "text": "var(--wp--preset--color-body)"
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontSize": "60px",
+          "lineHeight": "70px",
+          "fontFamily": "var(--wp--preset--font-family--spartan)"
+        },
+        "spacing": {
+          "margin": {
+            "top": "0",
+            "bottom": "8px"
+          }
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "45px",
+          "lineHeight": "55px",
+          "fontFamily": "var(--wp--preset--font-family--spartan)"
+        },
+        "spacing": {
+          "margin": {
+            "top": "0",
+            "bottom": "8px"
+          }
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "30px",
+          "lineHeight": "40px",
+          "fontFamily": "var(--wp--preset--font-family--spartan)"
+        },
+        "spacing": {
+          "margin": {
+            "top": "0",
+            "bottom": "8px"
+          }
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "24px",
+          "lineHeight": "34px",
+          "fontFamily": "var(--wp--preset--font-family--spartan)"
+        },
+        "spacing": {
+          "margin": {
+            "top": "0",
+            "bottom": "8px"
+          }
+        }
+      }
     }
   }
 }
