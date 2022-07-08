@@ -35,6 +35,9 @@ if( ! function_exists( 'mesonix_setup' ) ) {
 	function mesonix_setup() {
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
+
+		// Enqueue editor styles.
+		add_editor_style( 'style.css' );
 	}
 }
 
