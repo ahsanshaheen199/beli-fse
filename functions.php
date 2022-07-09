@@ -17,6 +17,13 @@ if ( ! function_exists( 'mesonix_assets' ) ) {
 	function mesonix_assets() {
 		wp_enqueue_style(
 			'mesonix-style',
+			get_theme_file_uri( '/assets/css/mesonix.css' ),
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+
+		wp_enqueue_style(
+			'mesonix-main-style',
 			get_stylesheet_uri(),
 			array(),
 			wp_get_theme()->get( 'Version' )
@@ -37,7 +44,7 @@ if( ! function_exists( 'mesonix_setup' ) ) {
 		add_theme_support( 'wp-block-styles' );
 
 		// Enqueue editor styles.
-		add_editor_style( 'style.css' );
+		add_editor_style( './assets/css/mesonix.css' );
 	}
 }
 

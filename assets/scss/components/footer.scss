@@ -1,0 +1,40 @@
+//Footer
+.mesonix-footer {
+  margin-top: 0;
+
+
+  .wp-block-navigation .wp-block-navigation__container li a:hover {
+    color: var(--wp--preset--color--primary);
+  }
+
+  .footer-widgets {
+    color: var(--wp--preset--color--footer-widget-text);
+
+    .wp-block-latest-posts {
+      li {
+        &:after{
+          display: table;
+          content: "";
+          clear: both;
+        }
+        &:not(:first-child) {
+          margin-top: 25px;
+        }
+        .wp-block-latest-posts__post-title {
+          font-size: var(--wp--preset--font-size--base);
+          line-height: 26px;
+          font-weight: 500;
+          color: var(--wp--preset--color--footer-widget-text);
+          display: inline-block;
+          margin-bottom: 8px;
+        }
+        .wp-block-latest-posts__post-date {
+          font-size: 12px;
+          line-height: 26px;
+          color: #969cad;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
