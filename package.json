@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass ./assets/scss/style.scss ./assets/css/mesonix.css",
-    "sass:watch": "sass --watch ./assets/scss/style.scss ./assets/css/mesonix.css"
+    "sass:watch": "sass --watch ./assets/scss/style.scss ./assets/css/mesonix.css",
+	"lint:scss": "stylelint **/*.scss",
+	"lint-fix:scss": "stylelint **/*.scss --fix"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,9 @@
   },
   "homepage": "https://github.com/ahsanshaheen199/mesonix-fse#readme",
   "devDependencies": {
-    "sass": "^1.53.0"
+    "@wordpress/stylelint-config": "^20.0.2",
+    "sass": "^1.53.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-recommended-scss": "^7.0.0"
   }
 }
