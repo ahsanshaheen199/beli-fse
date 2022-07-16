@@ -220,9 +220,9 @@
       "title": "Footer"
     },
     {
-      "name": "footer-with-top",
+      "name": "footer-with-four-columns",
       "area": "footer",
-      "title": "Footer With Top"
+      "title": "Footer With Four Columns"
     }
   ]
 }
