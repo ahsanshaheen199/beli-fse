@@ -1,0 +1,22 @@
+.wp-block-archives-list {
+	list-style: none;
+	padding-left: 0;
+
+	li {
+
+		a {
+			text-transform: capitalize;
+			display: inline-block;
+
+			&:hover {
+				color: var(--wp--preset--color--primary);
+			}
+		}
+
+		&:not(:last-child) {
+			a {
+				margin-bottom: 16px;
+			}
+		}
+	}
+}

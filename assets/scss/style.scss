@@ -1,21 +1,28 @@
+* {
+	box-sizing: border-box;
+}
+
 @import "./utilities/margin";
+@import "./blocks/latest-posts";
+@import "./blocks/category-list";
+@import "./blocks/archive-list";
+@import "./blocks/tag-cloud";
+@import "./blocks/latest-comments";
+@import "./blocks/page-list";
+@import "./blocks/post-title";
+@import "./blocks/search";
+@import "./blocks/quote";
+@import "./blocks/code";
+@import "./blocks/preformatted";
+@import "./blocks/pullquote";
+@import "./blocks/verse";
+@import "./blocks/table";
+@import "./blocks/file";
+@import "./blocks/button";
+@import "./components/forms";
 @import "./components/post-item";
+@import "./components/sidebar";
 @import "./components/footer";
-
-
-
-.wp-block-query .post-item .wp-block-post-excerpt__more-text {
-	margin-bottom: 0;
-}
-
-.wp-block-post-excerpt__more-link {
-	padding: 14px 20px;
-	border-radius: 6px;
-	background-color: var(--wp--preset--color--primary);
-	font-weight: 600;
-	color: var(--wp--preset--color--white);
-	margin-top: 15px;
-}
 
 .wp-block-query-pagination .wp-block-query-pagination-numbers a,
 .wp-block-query-pagination .wp-block-query-pagination-numbers span,

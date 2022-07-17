@@ -1,0 +1,25 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	background-color: var(--wp--preset--color--white);
+	color: var(--wp--preset--color--paragraph);
+	border-radius: 4px;
+	max-width: 100%;
+	line-height: 1.5;
+	padding: 6px 12px;
+	font-weight: 500;
+	font-size: 14px;
+	border: 1px solid #d7e1ea;
+}

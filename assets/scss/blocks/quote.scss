@@ -1,0 +1,27 @@
+.wp-block-quote {
+	border-color: var(--wp--preset--color--primary);
+	padding-left: 25px;
+
+	&.is-style-plain {
+		padding-left: 0;
+	}
+
+	&.has-text-align-right {
+		border-color: var(--wp--preset--color--primary);
+
+		&.is-style-plain {
+			padding-right: 0;
+		}
+	}
+
+	p {
+		font-size: var(--wp--preset--font-size--x-large);
+		line-height: 30px;
+		margin-top: 0;
+		margin-bottom: 16px;
+	}
+
+	.wp-block-quote__citation {
+		font-size: var(--wp--preset--font-size--large);
+	}
+}

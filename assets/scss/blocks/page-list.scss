@@ -1,0 +1,24 @@
+.wp-block-page-list {
+	list-style: none;
+	padding-left: 0;
+
+	li {
+
+		&:not(:last-child) {
+
+			a {
+				margin-bottom: 16px;
+			}
+		}
+
+		a {
+			display: inline-block;
+		}
+
+		ul {
+			list-style: none;
+			padding-left: 10px;
+		}
+	}
+
+}

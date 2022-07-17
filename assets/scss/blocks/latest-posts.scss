@@ -1,0 +1,30 @@
+.wp-block-latest-posts {
+	li {
+
+		.wp-block-latest-posts__post-title {
+			font-size: var(--wp--preset--font-size--base);
+			display: inline-block;
+			margin-bottom: 8px;
+
+			&:hover {
+				color: var(--wp--preset--color--primary);
+			}
+		}
+
+		.wp-block-latest-posts__post-date {
+			font-size: 12px;
+			line-height: 26px;
+			margin: 0;
+		}
+
+		&:not(:last-child) {
+			margin-bottom: 16px;
+		}
+
+		&:after {
+			display: table;
+			content: "";
+			clear: both;
+		}
+	}
+}

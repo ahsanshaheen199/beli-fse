@@ -1,0 +1,13 @@
+.wp-block-latest-comments {
+	padding-left: 0;
+
+	.wp-block-latest-comments__comment-meta {
+
+		.wp-block-latest-comments__comment-date,
+		.wp-block-latest-comments__comment-excerpt p {
+			margin-top: 8px;
+			font-size: 12px;
+			line-height: 26px;
+		}
+	}
+}

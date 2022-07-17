@@ -1,0 +1,29 @@
+.wp-block-categories-list,
+.wp-block-categories__list {
+	list-style: none;
+	padding-left: 0;
+
+	li {
+
+		a {
+			display: inline-block;
+			text-transform: capitalize;
+
+			&:hover {
+				color: var(--wp--preset--color--primary);
+			}
+		}
+
+		&:not(:last-child) {
+			a {
+				margin-bottom: 16px;
+			}
+		}
+	}
+
+	ul {
+		list-style: none;
+		padding-left: 10px;
+		margin-top: 0;
+	}
+}

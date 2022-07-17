@@ -172,8 +172,17 @@
         }
       },
       "link": {
-        "typography": {
-          "textDecoration": "none"
+		"color": {
+		  "text": "var(--wp--preset--color--body)"
+		},
+		":hover": {
+		  "color": {
+			"text": "var(--wp--preset--color--primary)"
+		  }
+		},
+		"typography": {
+          "textDecoration": "none",
+		  "fontWeight": "500"
         }
       }
     },
@@ -200,7 +209,90 @@
             "bottom": "0"
           }
         }
-      }
+      },
+	  "core/post-title": {
+		"typography": {
+		  "fontSize": "var(--wp--preset--font-size--3-x-large)",
+		  "fontWeight": "700",
+		  "textTransform": "capitalize",
+		  "lineHeight": "1.4"
+		},
+		"elements": {
+		  "link": {
+			"typography": {
+			  "fontWeight": "700"
+			}
+		  }
+		}
+	  },
+	  "core/post-author": {
+		"color": {
+		  "text": "var(--wp--preset--color--body)"
+		},
+		"typography": {
+		  "fontWeight": "500",
+		  "fontSize": "14px",
+		  "textTransform": "capitalize"
+		}
+	  },
+	  "core/post-date": {
+		"color": {
+		  "text": "var(--wp--preset--color--body)"
+		},
+		"typography": {
+		  "fontWeight": "500",
+		  "fontSize": "14px"
+		}
+	  },
+	  "core/tag-cloud": {
+		"elements": {
+		  "link": {
+			"border": {
+			  "color": "#d7e1ea",
+			  "style": "solid",
+			  "width": "1px",
+			  "radius": "4px"
+			},
+			"typography": {
+			  "fontSize": "15px",
+			  "fontWeight": "500",
+			  "lineHeight": "1.7"
+			},
+			"spacing": {
+			  "margin": {
+				"right": "6px",
+				"bottom": "10px"
+			  },
+			  "padding": {
+				"top": "8px",
+				"bottom": "8px",
+				"right": "14px",
+				"left": "14px"
+			  }
+			}
+		  }
+		}
+	  },
+	  "core/button": {
+		"border": {
+		  "radius": "6px"
+		},
+		"typography": {
+		  "fontWeight": "600",
+		  "textTransform": "capitalize"
+		},
+		"color": {
+		  "background": "var(--wp--preset--color--primary)"
+		},
+		"spacing": {
+		  "padding": {
+			"top": "14px",
+			"bottom": "14px",
+			"left": "20px",
+			"right": "20px"
+		  }
+		}
+	  }
     }
   },
   "templateParts": [
@@ -223,6 +315,11 @@
       "name": "footer-with-four-columns",
       "area": "footer",
       "title": "Footer With Four Columns"
-    }
+    },
+	{
+	  "name": "sidebar",
+	  "title": "Sidebar",
+	  "area": "uncategorized"
+	}
   ]
 }

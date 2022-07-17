@@ -1,0 +1,14 @@
+.wp-block-pullquote {
+	border-color: var(--wp--preset--color--primary);
+
+	p {
+		font-size: var(--wp--preset--font-size--x-large);
+		line-height: 30px;
+		margin-top: 0;
+		margin-bottom: 16px;
+	}
+
+	cite {
+		font-size: 14px;
+	}
+}
