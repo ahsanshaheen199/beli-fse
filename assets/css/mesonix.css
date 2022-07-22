@@ -286,6 +286,7 @@ textarea {
 @media (max-width: 781px) {
   .wp-block-sidebar {
     margin-left: 0;
+    margin-top: 40px;
   }
 }
 /* Footer */
@@ -295,6 +296,7 @@ textarea {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.8;
+  padding: 100px 20px 50px 20px;
 }
 .footer-widgets p,
 .footer-widgets .wp-block-calendar table tbody {
