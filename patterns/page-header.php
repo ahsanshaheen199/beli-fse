@@ -2,7 +2,7 @@
 /**
  * Title: Page Header
  * Slug: mesonix/page-header
- * Categories: text, header
+ * Categories: text, header, mesonix
  * Description: page title with image after header
  */
 ?>

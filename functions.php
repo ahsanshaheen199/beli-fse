@@ -49,3 +49,17 @@ if( ! function_exists( 'mesonix_setup' ) ) {
 }
 
 add_action( 'after_setup_theme', 'mesonix_setup' );
+
+if( ! function_exists( 'mesonix_register_block_pattern_category' ) ) {
+	/**
+	 * Register category for block pattern
+	 *
+	 * @return void
+	 */
+	function mesonix_register_block_pattern_category() {
+		register_block_pattern_category( 'mesonix', array(
+			'label' => __( 'Mesonix', 'mesonix' )
+		) );
+	}
+}
+add_action( 'init', 'mesonix_register_block_pattern_category' );
