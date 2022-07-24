@@ -1,0 +1,53 @@
+<!-- wp:template-part {"slug":"header","theme":"mesonix"} /-->
+
+<!-- wp:cover {"dimRatio":80,"customOverlayColor":"#00001f","minHeight":300,"align":"full","className":"mt-0","style":{"spacing":{"padding":{"top":"100px","right":"90px","bottom":"100px","left":"90px"}}}} -->
+<div class="wp-block-cover alignfull mt-0" style="padding-top:100px;padding-right:90px;padding-bottom:100px;padding-left:90px;min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-80 has-background-dim" style="background-color:#00001f"></span><div class="wp-block-cover__inner-container"><!-- wp:group -->
+	<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
+		<h2 class="has-text-align-center">Search Result</h2>
+		<!-- /wp:heading --></div>
+	<!-- /wp:group --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"tagName":"main","style":{"spacing":{"padding":{"top":"100px","bottom":"100px","right":"20px","left":"20px"}}},"className":"mt-0","layout":{"inherit":true}} -->
+<main class="wp-block-group mt-0" style="padding-top:100px;padding-right:20px;padding-bottom:100px;padding-left:20px"><!-- wp:group -->
+	<div class="wp-block-group"><!-- wp:query {"queryId":4,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
+		<div class="wp-block-query"><!-- wp:post-template -->
+			<!-- wp:group {"className":"post-item"} -->
+			<div class="wp-block-group post-item"><!-- wp:post-featured-image /-->
+
+				<!-- wp:group {"className":"post-content"} -->
+				<div class="wp-block-group post-content"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+					<div class="wp-block-group"><!-- wp:post-author {"showAvatar":false} /-->
+
+						<!-- wp:post-date /--></div>
+					<!-- /wp:group -->
+
+					<!-- wp:post-title {"isLink":true} /-->
+
+					<!-- wp:post-excerpt {"moreText":"Read More"} /--></div>
+				<!-- /wp:group --></div>
+			<!-- /wp:group -->
+			<!-- /wp:post-template -->
+
+			<!-- wp:query-pagination {"paginationArrow":"arrow"} -->
+			<!-- wp:query-pagination-previous {"label":" "} /-->
+
+			<!-- wp:query-pagination-numbers /-->
+
+			<!-- wp:query-pagination-next {"label":" "} /-->
+			<!-- /wp:query-pagination -->
+
+			<!-- wp:query-no-results -->
+			<!-- wp:group {"layout":{"contentSize":"70%"}} -->
+			<div class="wp-block-group"><!-- wp:paragraph {"align":"center"} -->
+				<p class="has-text-align-center">Sorry, but nothing matched your search terms. Please try again with some different keywords.</p>
+				<!-- /wp:paragraph -->
+
+				<!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true} /--></div>
+			<!-- /wp:group -->
+			<!-- /wp:query-no-results --></div>
+		<!-- /wp:query --></div>
+	<!-- /wp:group --></main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","theme":"mesonix","className":"mt-0"} /-->
