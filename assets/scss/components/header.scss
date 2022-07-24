@@ -1,0 +1,63 @@
+@media ( max-width: 781px) {
+
+	.mesonix-header-top .wp-block-columns > .wp-block-column .wp-block-social-links {
+		justify-content: center;
+		display: flex;
+		float: none;
+		margin-left: 0;
+	}
+
+	.mobile-text-center {
+		text-align: center;
+	}
+}
+
+@media ( max-width: 600px) {
+
+	.mesonix-mainmenu-area .wp-block-columns > .wp-block-column {
+		flex-basis: 50% !important;
+	}
+}
+
+.mesonix-mainmenu-area {
+
+	.wp-block-navigation {
+
+		.wp-block-navigation__container {
+
+			.wp-block-navigation-item {
+
+				&.current-menu-item,
+				&:hover {
+
+					> .wp-block-navigation-item__content {
+						color: var(--wp--preset--color--primary);
+					}
+				}
+
+				.wp-block-navigation__submenu-container {
+					padding: 20px;
+					border: none;
+					box-shadow: 0 0 30px rgb(51 51 51 / 10%);
+
+					.wp-block-navigation-item {
+
+						.wp-block-navigation-item__content {
+							font-weight: 600;
+							font-size: 15px;
+						}
+					}
+				}
+			}
+
+			> .wp-block-navigation-item {
+				margin: 0 5px;
+
+				> .wp-block-navigation-item__content {
+					font-weight: 700;
+					padding: 0 5px;
+				}
+			}
+		}
+	}
+}

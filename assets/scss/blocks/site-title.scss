@@ -1,0 +1,9 @@
+.wp-block-site-title {
+
+	a {
+
+		&:hover {
+			color: var(--wp--preset--color--primary);
+		}
+	}
+}
