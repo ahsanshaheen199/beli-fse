@@ -1,4 +1,8 @@
-.wp-block-table {
+.wp-block-table,
+table {
+	width: 100%;
+	max-width: 100%;
+	border-collapse: collapse;
 
 	thead,
 	tfoot {
@@ -8,5 +12,6 @@
 	th,
 	td {
 		border-color: #d7e1ea;
+		word-break: normal;
 	}
 }

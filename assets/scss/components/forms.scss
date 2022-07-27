@@ -21,5 +21,15 @@ textarea {
 	padding: 6px 12px;
 	font-weight: 500;
 	font-size: 14px;
-	border: 1px solid #d7e1ea;
+	border: 1px solid #d7e1ea !important;
+}
+
+input[type="submit"],
+button[type="submit"] {
+	padding: 14px 20px;
+	border-radius: 6px;
+	background-color: var(--wp--preset--color--primary);
+	font-weight: 600;
+	color: var(--wp--preset--color--white);
+	border: none;
 }

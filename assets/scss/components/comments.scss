@@ -1,0 +1,35 @@
+.wp-block-comments-query-loop {
+
+	.wp-block-comments-title {
+		font-size: 30px;
+		line-height: 40px;
+		padding-top: 50px;
+	}
+
+	.wp-block-comment-author-name {
+
+		a {
+			font-weight: 700;
+		}
+	}
+
+	.wp-block-comment-reply-link {
+
+		a {
+			display: inline-block;
+			padding: 10px;
+			border-radius: 6px;
+			background-color: var(--wp--preset--color--primary);
+			font-weight: 600;
+			color: var(--wp--preset--color--white);
+		}
+
+	}
+
+	.wp-block-post-comments-form {
+		border-radius: 10px;
+		background-color: #f5f5f5;
+		padding: 40px 30px 30px;
+		margin-top: 70px;
+	}
+}

@@ -1,0 +1,20 @@
+.wp-block-post-author {
+	align-items: center;
+
+	.wp-block-post-author__avatar {
+
+		img {
+			border-radius: 50%;
+		}
+	}
+
+	.wp-block-post-author__content {
+
+		.wp-block-post-author__name {
+			color: var(--wp--preset--color--body);
+			font-weight: 500;
+			font-size: 14px;
+			text-transform: capitalize;
+		}
+	}
+}
