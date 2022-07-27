@@ -1,5 +1,14 @@
 {
   "version": 2,
+  "customTemplates": [
+	{
+	  "name": "single-post-left-sidebar",
+	  "title": "Single Post( Left Sidebar )",
+	  "postTypes": [
+		"post"
+	  ]
+	}
+  ],
   "settings": {
     "appearanceTools": true,
     "layout": {
