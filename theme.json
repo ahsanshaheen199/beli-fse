@@ -10,6 +10,13 @@
 			]
 		},
 		{
+			"name": "single-post-no-sidebar",
+			"title": "Single Post ( Full Width )",
+			"postTypes": [
+				"post"
+			]
+		},
+		{
 			"name": "blank",
 			"title": "Blank",
 			"postTypes": [
