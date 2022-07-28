@@ -472,6 +472,7 @@ button[type=submit] {
   }
   .left-sidebar .wp-block-sidebar {
     margin-right: 0;
+    margin-top: 0;
     margin-bottom: 60px;
   }
 }

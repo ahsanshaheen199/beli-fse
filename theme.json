@@ -17,6 +17,13 @@
 			]
 		},
 		{
+			"name": "blog-page-left-sidebar",
+			"title": "Blog Page ( Left Sidebar )",
+			"postTypes": [
+				"page"
+			]
+		},
+		{
 			"name": "blank",
 			"title": "Blank",
 			"postTypes": [
