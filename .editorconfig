@@ -15,13 +15,9 @@ indent_style = tab
 insert_final_newline = true
 trim_trailing_whitespace = true
 
-[*.txt]
-trim_trailing_whitespace = false
-
-[*.{md,json,yml}]
-trim_trailing_whitespace = false
+[*.yml]
 indent_style = space
 indent_size = 2
 
-[*.json]
-indent_style = tab
+[*.md]
+trim_trailing_whitespace = false
