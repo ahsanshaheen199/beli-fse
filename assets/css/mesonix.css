@@ -324,7 +324,7 @@ table td {
   .mesonix-header-top .wp-block-columns > .wp-block-column .wp-block-social-links {
     justify-content: center;
     display: flex;
-    float: none;
+    float: none !important;
     margin-left: 0;
   }
   .mobile-text-center {
@@ -339,6 +339,12 @@ table td {
     box-shadow: none;
   }
 }
+/* Header Top */
+.mesonix-header-top .wp-block-social-links {
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 .wp-block-post-content:after,
 .wp-block-comment-content:after {
   content: "";
@@ -627,3 +633,5 @@ button[type=submit] {
 .footer-widgets .wp-block-latest-comments li .wp-block-latest-comments__comment-excerpt p {
   color: #969cad;
 }
+
+/*# sourceMappingURL=mesonix.css.map */

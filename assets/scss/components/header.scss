@@ -48,7 +48,7 @@
 	.mesonix-header-top .wp-block-columns > .wp-block-column .wp-block-social-links {
 		justify-content: center;
 		display: flex;
-		float: none;
+		float: none !important;
 		margin-left: 0;
 	}
 
@@ -77,5 +77,16 @@
 				}
 			}
 		}
+	}
+}
+
+
+/* Header Top */
+
+.mesonix-header-top {
+
+	.wp-block-social-links {
+		margin-left: 0 !important;
+		margin-bottom: 0 !important;
 	}
 }
