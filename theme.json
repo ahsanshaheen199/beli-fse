@@ -94,35 +94,35 @@
 						  	"fontWeight": "400",
 						  	"fontStyle": "normal",
 						  	"fontStretch": "normal",
-						  	"src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+						  	"src": [ "file:./assets/fonts/spartan/SpartanMB-Regular.woff2" ]
 						},
 						{
 							"fontFamily": "Spartan",
 							"fontWeight": "500",
 							"fontStyle": "normal",
 							"fontStretch": "normal",
-							"src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+							"src": [ "file:./assets/fonts/spartan/SpartanMB-Medium.woff2" ]
 						},
 						{
 						  	"fontFamily": "Spartan",
 						  	"fontWeight": "600",
 						  	"fontStyle": "normal",
 						  	"fontStretch": "normal",
-						  	"src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+						  	"src": [ "file:./assets/fonts/spartan/SpartanMB-SemiBold.woff2" ]
 						},
 						{
 						  	"fontFamily": "Spartan",
 						  	"fontWeight": "700",
 						  	"fontStyle": "normal",
 						  	"fontStretch": "normal",
-						  	"src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+						  	"src": [ "file:./assets/fonts/spartan/SpartanMB-Bold.woff2" ]
 						},
 						{
 						  	"fontFamily": "Spartan",
 						  	"fontWeight": "800",
 						  	"fontStyle": "normal",
 						  	"fontStretch": "normal",
-						  	"src": [ "file:./assets/fonts/spartan/spartan-regular.woff2" ]
+						  	"src": [ "file:./assets/fonts/spartan/SpartanMB-ExtraBold.woff2" ]
 						}
 					]
 				}
