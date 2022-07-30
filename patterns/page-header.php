@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Page Header
- * Slug: mesonix/page-header
- * Categories: text, header, mesonix
+ * Slug: beli/page-header
+ * Categories: text, header, beli
  * Description: page title with image after header
  */
 ?>

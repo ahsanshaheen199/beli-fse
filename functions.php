@@ -4,26 +4,26 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package Mesonix
+ * @package Beli
  * @since 1.0.0
  */
 
-if ( ! function_exists( 'mesonix_assets' ) ) {
+if ( ! function_exists( 'beli_assets' ) ) {
 	/**
 	 * Enqueue the style.css file.
 	 *
 	 * @since 1.0.0
 	 */
-	function mesonix_assets() {
+	function beli_assets() {
 		wp_enqueue_style(
-			'mesonix-style',
-			get_theme_file_uri( '/assets/css/mesonix.css' ),
+			'beli-style',
+			get_theme_file_uri( '/assets/css/beli.css' ),
 			array(),
 			wp_get_theme()->get( 'Version' )
 		);
 
 		wp_enqueue_style(
-			'mesonix-main-style',
+			'beli-main-style',
 			get_stylesheet_uri(),
 			array(),
 			wp_get_theme()->get( 'Version' )
@@ -31,35 +31,35 @@ if ( ! function_exists( 'mesonix_assets' ) ) {
 	}
 }
 
-add_action( 'wp_enqueue_scripts', 'mesonix_assets' );
+add_action( 'wp_enqueue_scripts', 'beli_assets' );
 
-if( ! function_exists( 'mesonix_setup' ) ) {
+if( ! function_exists( 'beli_setup' ) ) {
 	/**
 	 * Sets up theme defaults and registers support for various WordPress features.
 	 *
 	 * @since 1.0.0
 	 */
-	function mesonix_setup() {
+	function beli_setup() {
 		// Add support for block styles.
 		add_theme_support( 'wp-block-styles' );
 
 		// Enqueue editor styles.
-		add_editor_style( './assets/css/mesonix.css' );
+		add_editor_style( './assets/css/beli.css' );
 	}
 }
 
-add_action( 'after_setup_theme', 'mesonix_setup' );
+add_action( 'after_setup_theme', 'beli_setup' );
 
-if( ! function_exists( 'mesonix_register_block_pattern_category' ) ) {
+if( ! function_exists( 'beli_register_block_pattern_category' ) ) {
 	/**
 	 * Register category for block pattern
 	 *
 	 * @return void
 	 */
-	function mesonix_register_block_pattern_category() {
-		register_block_pattern_category( 'mesonix', array(
-			'label' => __( 'Mesonix', 'mesonix' )
+	function beli_register_block_pattern_category() {
+		register_block_pattern_category( 'beli', array(
+			'label' => __( 'Beli', 'beli' )
 		) );
 	}
 }
-add_action( 'init', 'mesonix_register_block_pattern_category' );
+add_action( 'init', 'beli_register_block_pattern_category' );

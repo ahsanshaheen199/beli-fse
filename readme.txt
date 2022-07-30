@@ -1,4 +1,4 @@
-=== Mesonix ===
+=== Beli ===
 Contributors: ahsan03
 Tags: left-sidebar, right-sidebar,two-columns, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, sticky-post, threaded-comments
 Requires at least: 5.9
@@ -8,11 +8,11 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Mesonix is a clean, simple block theme built for Full Site Editing.
+Beli is a clean, simple block theme built for Full Site Editing.
 
 == Description ==
 
-Mesonix is a WordPress Block Theme for Full Site Editing that comes with a beautiful design.
+Beli is a WordPress Block Theme for Full Site Editing that comes with a beautiful design.
 
 == Changelog ==
 
@@ -21,8 +21,8 @@ Mesonix is a WordPress Block Theme for Full Site Editing that comes with a beaut
 
 == Copyright ==
 
-Mesonix WordPress Theme
-Mesonix is distributed under the terms of the GNU GPL.
+Beli WordPress Theme
+Beli is distributed under the terms of the GNU GPL.
 
 == Credits ==
 

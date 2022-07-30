@@ -1,6 +1,6 @@
 /* Header Area */
 
-.mesonix-mainmenu-area {
+.beli-mainmenu-area {
 
 	.wp-block-navigation {
 
@@ -45,7 +45,7 @@
 
 @media ( max-width: 781px) {
 
-	.mesonix-header-top .wp-block-columns > .wp-block-column .wp-block-social-links {
+	.beli-header-top .wp-block-columns > .wp-block-column .wp-block-social-links {
 		justify-content: center;
 		display: flex;
 		float: none !important;
@@ -59,11 +59,11 @@
 
 @media ( max-width: 600px) {
 
-	.mesonix-mainmenu-area .wp-block-columns > .wp-block-column {
+	.beli-mainmenu-area .wp-block-columns > .wp-block-column {
 		flex-basis: 50% !important;
 	}
 
-	.mesonix-mainmenu-area {
+	.beli-mainmenu-area {
 
 		.wp-block-navigation {
 
@@ -83,7 +83,7 @@
 
 /* Header Top */
 
-.mesonix-header-top {
+.beli-header-top {
 
 	.wp-block-social-links {
 		margin-left: 0 !important;

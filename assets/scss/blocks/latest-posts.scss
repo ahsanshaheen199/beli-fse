@@ -1,10 +1,12 @@
 .wp-block-latest-posts {
+
 	li {
 
 		.wp-block-latest-posts__post-title {
 			font-size: var(--wp--preset--font-size--base);
 			display: inline-block;
 			margin-bottom: 8px;
+			font-weight: 600;
 
 			&:hover {
 				color: var(--wp--preset--color--primary);
@@ -15,6 +17,7 @@
 			font-size: 12px;
 			line-height: 26px;
 			margin: 0;
+			color: var(--wp--preset--color--paragraph)
 		}
 
 		&:not(:last-child) {

@@ -1,29 +1,29 @@
 {
-  "name": "mesonix",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "sass": "sass --no-source-map ./assets/scss/style.scss ./assets/css/mesonix.css",
-    "sass:watch": "sass --watch ./assets/scss/style.scss ./assets/css/mesonix.css",
-	"lint:scss": "stylelint **/*.scss",
-	"lint-fix:scss": "stylelint **/*.scss --fix"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ahsanshaheen199/mesonix-fse.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ahsanshaheen199/mesonix-fse/issues"
-  },
-  "homepage": "https://github.com/ahsanshaheen199/mesonix-fse#readme",
-  "devDependencies": {
-    "@wordpress/stylelint-config": "^20.0.2",
-    "sass": "^1.53.0",
-    "stylelint": "^14.9.1",
-    "stylelint-config-recommended-scss": "^7.0.0"
-  }
+	"name": "beli",
+	"version": "1.0.0",
+	"description": "WordPress Block Theme",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"sass": "sass --no-source-map ./assets/scss/style.scss ./assets/css/beli.css",
+		"sass:watch": "sass --watch ./assets/scss/style.scss ./assets/css/beli.css",
+		"build:stylelint": "stylelint ./assets/css/*.css --fix --config .stylelintrc-css.json",
+		"lint:scss": "stylelint **/*.scss",
+		"lint-fix:scss": "stylelint **/*.scss --fix"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ahsanshaheen199/beli-fse.git"
+	},
+	"keywords": [],
+	"author": "",
+	"bugs": {
+		"url": "https://github.com/ahsanshaheen199/beli-fse/issues"
+	},
+	"homepage": "https://github.com/ahsanshaheen199/beli-fse#readme",
+	"devDependencies": {
+		"@wordpress/stylelint-config": "^20.0.2",
+		"sass": "^1.53.0",
+		"stylelint": "^14.9.1",
+		"stylelint-config-recommended-scss": "^7.0.0"
+	}
 }
