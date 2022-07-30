@@ -1,0 +1,22 @@
+/* Global Element */
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	transition: color .3s;
+
+	&:hover {
+		color: var(--wp--preset--color--primary);
+	}
+}
+
+select {
+	height: 40px;
+	border-radius: 4px;
+	max-width: 100%;
+	padding-left: 16px;
+	padding-right: 16px;
+	border: 1px solid #d7e1ea;
+}

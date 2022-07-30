@@ -1,0 +1,27 @@
+/* WordPress Alignemnt */
+
+.aligncenter {
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.alignleft {
+	float: left !important;
+	margin-right: 1.75rem !important;
+	margin-bottom: 1rem !important;
+}
+
+.alignright {
+	float: right !important;
+	margin-left: 1.75rem !important;
+	margin-bottom: 1rem !important;
+}
+
+.alignleft::after,
+.alignright::after {
+	content: "";
+	clear: both;
+	display: block;
+}

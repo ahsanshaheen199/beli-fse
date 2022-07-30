@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass ./assets/scss/style.scss ./assets/css/mesonix.css",
+    "sass": "sass --no-source-map ./assets/scss/style.scss ./assets/css/mesonix.css",
     "sass:watch": "sass --watch ./assets/scss/style.scss ./assets/css/mesonix.css",
 	"lint:scss": "stylelint **/*.scss",
 	"lint-fix:scss": "stylelint **/*.scss --fix"

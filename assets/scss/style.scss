@@ -1,48 +1,6 @@
-* {
-	box-sizing: border-box;
-}
-
-a {
-	transition: color .3s;
-	&:hover {
-		color: var(--wp--preset--color--primary);
-	}
-}
-
-.aligncenter {
-	clear: both;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-}
-
-.alignleft {
-	float: left !important;
-	margin-right: 1.75rem !important;
-	margin-bottom: 1rem !important;
-}
-
-.alignright {
-	float: right !important;
-	margin-left: 1.75rem !important;
-	margin-bottom: 1rem !important;
-}
-
-.alignleft::after, .alignright::after {
-	content: "";
-	clear: both;
-	display: block;
-}
-
-select {
-	height: 40px;
-	border-radius: 4px;
-	max-width: 100%;
-	padding-left: 16px;
-	padding-right: 16px;
-	border: 1px solid #d7e1ea;
-}
-
+/* Theme Styles */
+@import "./global/element";
+@import "./wordpress/alignment";
 @import "./utilities/margin";
 @import "./blocks/latest-posts";
 @import "./blocks/category-list";
@@ -62,6 +20,7 @@ select {
 @import "./blocks/button";
 @import "./blocks/site-title";
 @import "./blocks/post-author";
+@import "./components/header";
 @import "./components/common";
 @import "./components/comments";
 @import "./components/page-header";
@@ -70,5 +29,4 @@ select {
 @import "./components/single-post";
 @import "./components/sidebar";
 @import "./components/pagination";
-@import "./components/header";
 @import "./components/footer";

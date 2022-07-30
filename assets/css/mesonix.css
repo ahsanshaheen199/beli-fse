@@ -1,3 +1,4 @@
+/* Theme Styles */ /* Global Element */
 * {
   box-sizing: border-box;
 }
@@ -9,6 +10,16 @@ a:hover {
   color: var(--wp--preset--color--primary);
 }
 
+select {
+  height: 40px;
+  border-radius: 4px;
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  border: 1px solid #d7e1ea;
+}
+
+/* WordPress Alignemnt */
 .aligncenter {
   clear: both;
   margin-left: auto;
@@ -28,19 +39,11 @@ a:hover {
   margin-bottom: 1rem !important;
 }
 
-.alignleft::after, .alignright::after {
+.alignleft::after,
+.alignright::after {
   content: "";
   clear: both;
   display: block;
-}
-
-select {
-  height: 40px;
-  border-radius: 4px;
-  max-width: 100%;
-  padding-left: 16px;
-  padding-right: 16px;
-  border: 1px solid #d7e1ea;
 }
 
 .mt-0 {
@@ -296,6 +299,46 @@ table td {
   text-transform: capitalize;
 }
 
+/* Header Area */
+.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content, .mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item:hover > .wp-block-navigation-item__content {
+  color: var(--wp--preset--color--primary);
+}
+.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item .wp-block-navigation__submenu-container {
+  padding: 20px;
+  border: none;
+  box-shadow: 0 0 30px rgba(51, 51, 51, 0.1);
+}
+.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item .wp-block-navigation-item__content {
+  font-weight: 600;
+  font-size: 15px;
+}
+.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item {
+  margin: 0 5px;
+}
+.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content {
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+@media (max-width: 781px) {
+  .mesonix-header-top .wp-block-columns > .wp-block-column .wp-block-social-links {
+    justify-content: center;
+    display: flex;
+    float: none;
+    margin-left: 0;
+  }
+  .mobile-text-center {
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .mesonix-mainmenu-area .wp-block-columns > .wp-block-column {
+    flex-basis: 50% !important;
+  }
+  .mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item .wp-block-navigation__submenu-container {
+    box-shadow: none;
+  }
+}
 .wp-block-post-content:after,
 .wp-block-comment-content:after {
   content: "";
@@ -525,42 +568,6 @@ button[type=submit] {
   margin: 0;
 }
 
-@media (max-width: 781px) {
-  .mesonix-header-top .wp-block-columns > .wp-block-column .wp-block-social-links {
-    justify-content: center;
-    display: flex;
-    float: none;
-    margin-left: 0;
-  }
-  .mobile-text-center {
-    text-align: center;
-  }
-}
-@media (max-width: 600px) {
-  .mesonix-mainmenu-area .wp-block-columns > .wp-block-column {
-    flex-basis: 50% !important;
-  }
-}
-.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item.current-menu-item > .wp-block-navigation-item__content, .mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item:hover > .wp-block-navigation-item__content {
-  color: var(--wp--preset--color--primary);
-}
-.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item .wp-block-navigation__submenu-container {
-  padding: 20px;
-  border: none;
-  box-shadow: 0 0 30px rgba(51, 51, 51, 0.1);
-}
-.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container .wp-block-navigation-item .wp-block-navigation__submenu-container .wp-block-navigation-item .wp-block-navigation-item__content {
-  font-weight: 600;
-  font-size: 15px;
-}
-.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item {
-  margin: 0 5px;
-}
-.mesonix-mainmenu-area .wp-block-navigation .wp-block-navigation__container > .wp-block-navigation-item > .wp-block-navigation-item__content {
-  font-weight: 700;
-  padding: 0 5px;
-}
-
 /* Footer */
 .footer-widgets {
   color: var(--wp--preset--color--footer-widget-text);
@@ -620,5 +627,3 @@ button[type=submit] {
 .footer-widgets .wp-block-latest-comments li .wp-block-latest-comments__comment-excerpt p {
   color: #969cad;
 }
-
-/*# sourceMappingURL=mesonix.css.map */
