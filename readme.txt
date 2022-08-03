@@ -4,7 +4,7 @@ Tags: left-sidebar, right-sidebar,two-columns, custom-colors, custom-menu, custo
 Requires at least: 5.9
 Tested up to: 6.0
 Requires PHP: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +15,11 @@ Beli is a clean, simple block theme built for Full Site Editing.
 Beli is a WordPress Block Theme for Full Site Editing that comes with a beautiful design.
 
 == Changelog ==
+
+1.0.3
+* Fix: Header navigation
+
+1.0.2
 * Initial Release
 
 == Copyright ==

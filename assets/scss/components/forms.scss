@@ -25,6 +25,8 @@ textarea {
 }
 
 input[type="submit"],
+input[type="reset"],
+input::file-selector-button,
 button[type="submit"] {
 	padding: 14px 20px;
 	border-radius: 6px;

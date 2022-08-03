@@ -4,7 +4,8 @@
 
 	.wp-block-navigation {
 
-		.wp-block-navigation__container {
+		.wp-block-navigation__container,
+		.wp-block-page-list {
 
 			.wp-block-navigation-item {
 
@@ -37,6 +38,7 @@
 				> .wp-block-navigation-item__content {
 					font-weight: 700;
 					padding: 0 5px;
+					margin-bottom: 0;
 				}
 			}
 		}
