@@ -1,0 +1,123 @@
+/* All products block */
+
+.wc-block-grid__products {
+		margin-bottom: 0;
+
+		.wc-block-grid__product {
+			border: none;
+			margin-bottom: 50px;
+			padding: 0 15px;
+
+			.wc-block-grid__product-image {
+				margin-bottom: 20px;
+
+				&:hover {
+
+					img {
+						opacity: .75;
+					}
+				}
+
+				img {
+					width: 100%;
+					border-radius: 8px;
+				}
+
+				.wc-block-components-product-sale-badge {
+					top: 10px;
+					right: 15px;
+					border: none;
+					background-color: var(--wp--preset--color--primary);
+					color: var(--wp--preset--color--white);
+				}
+			}
+
+			.wc-block-grid__product-title {
+				font-size: 18px;
+				margin-bottom: 4px;
+
+				a {
+					font-weight: 700;
+				}
+			}
+
+			.wc-block-grid__product-price {
+				font-size: 14px;
+				font-weight: 500;
+				margin-bottom: 0;
+
+				del {
+					margin-right: 0;
+				}
+
+				ins {
+					text-decoration: none;
+				}
+			}
+
+			.wc-block-grid__product-rating {
+
+				.wc-block-grid__product-rating__stars {
+
+					.rating {
+
+						&:before {
+							color: #f5a62b;
+						}
+					}
+				}
+			}
+
+			.wc-block-grid__product-add-to-cart {
+				margin-top: 12px;
+				margin-bottom: 0;
+
+				.wp-block-button__link[class] {
+					padding: 14px 20px;
+					font-weight: 600;
+					cursor: pointer;
+					line-height: 1.67;
+
+					&:hover {
+						color: white;
+					}
+				}
+			}
+		}
+	}
+
+
+.wc-block-components-pagination {
+
+	.wc-block-pagination-page {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		font-weight: 700;
+		line-height: 1;
+		font-size: var(--wp--preset--font-size--base);
+		display: inline-block;
+		text-align: center;
+		border: 1px solid #d7e1ea;
+		margin: 0 6px;
+		color: var(--wp--preset--color--body);
+		text-decoration: none;
+		cursor: pointer;
+
+		&:hover {
+			border-color: var(--wp--preset--color--primary);
+			background-color: var(--wp--preset--color--primary);
+			color: var(--wp--preset--color--white);
+		}
+
+		&:disabled:not(.wc-block-components-pagination__page--active) {
+			cursor: not-allowed;
+		}
+
+		&.wc-block-components-pagination__page--active {
+			border-color: var(--wp--preset--color--primary);
+			background-color: var(--wp--preset--color--primary);
+			color: var(--wp--preset--color--white);
+		}
+	}
+}

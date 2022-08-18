@@ -5,10 +5,10 @@
 	"license": "GPL-2.0-or-later",
 	"scripts": {
 		"sass": "sass --no-source-map ./assets/scss/style.scss ./assets/css/beli.css",
-		"sass:watch": "sass --watch ./assets/scss/style.scss ./assets/css/beli.css",
+		"sass:watch": "sass --watch --no-source-map ./assets/scss/style.scss ./assets/css/beli.css",
 		"build:stylelint": "stylelint ./assets/css/*.css --fix --config .stylelintrc-css.json",
-		"lint:scss": "stylelint **/*.scss",
-		"lint-fix:scss": "stylelint **/*.scss --fix"
+		"lint:scss": "stylelint ./assets/scss/**/*.scss --config .stylelintrc.json",
+		"lint-fix:scss": "stylelint ./assets/scss/**/*.scss --fix --config .stylelintrc.json"
 	},
 	"repository": {
 		"type": "git",
