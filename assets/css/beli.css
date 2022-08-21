@@ -734,3 +734,55 @@ button[type=submit] {
   background-color: var(--wp--preset--color--primary);
   color: var(--wp--preset--color--white);
 }
+
+.wp-shop-sidebar {
+  margin-left: 20px;
+}
+.wp-shop-sidebar .wp-shop-widget {
+  padding: 30px;
+  box-shadow: 0 5px 30px rgba(51, 51, 51, 0.1);
+  background-color: var(--wp--preset--color--white);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.wp-shop-sidebar .wp-shop-widget h3 {
+  position: relative;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 35px;
+}
+.wp-shop-sidebar .wp-shop-widget h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 35px;
+  width: 50px;
+  height: 2px;
+  background-color: #3742fa;
+  border-radius: 4px;
+}
+.wp-shop-sidebar .wp-shop-widget:last-child {
+  margin-bottom: 0;
+}
+
+.wc-block-product-categories.is-list .wc-block-product-categories-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.wc-block-product-categories.is-list .wc-block-product-categories-list li a {
+  display: inline-block;
+  text-transform: capitalize;
+}
+.wc-block-product-categories.is-list .wc-block-product-categories-list li a:hover {
+  color: var(--wp--preset--color--primary);
+}
+.wc-block-product-categories.is-list .wc-block-product-categories-list li:not(:last-child) a {
+  margin-bottom: 16px;
+}
+.wc-block-product-categories.is-list .wc-block-product-categories-list ul {
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 16px;
+}
